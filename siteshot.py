@@ -6,7 +6,7 @@ Run it inside a project (or point --root at one):
 
     pip install playwright
     playwright install chromium
-    python siteshot_v2.py
+    python siteshot.py
 
 Every run writes a new directory under <project>/.siteshot/runs/ and leaves
 older runs untouched. .siteshot/latest.txt points at the newest run.
